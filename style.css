@@ -1,0 +1,38 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+li:hover{
+  text-decoration: underline;
+}
+
+li{
+    float: right;
+}
+li a {
+    display: inline;
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+#search{
+display: flex;
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+#bar{
+  display: block;
+  border-radius: 25px;
+  padding: 5px;
+  width: 75vh;
+}
+#button{
+  display: block;
+    padding: 2px;
+    margin: auto;
+    margin-top: 20px;
+}
