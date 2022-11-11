@@ -36,3 +36,17 @@ transform: translate(-50%, -50%);
     margin: auto;
     margin-top: 20px;
 }
+.headlink{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.fields{
+  display: inline-block;
+  min-width: 167px;
+  padding: 10px;
+}
+.inputs{
+  display: inline-block;
+  min-width:max-content;
+}
+
