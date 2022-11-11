@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advance Search</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="headlink">
+        <ul>
+            <li><a class="nav-link" href="index.html" >Google</a></li>
+        </ul>
+        </div>
+        <div id="asearch">
+            <h2> Advance Search </h2>
+        </div>
+        <div>
+            <form action="https://google.com/search">
+                <h3> Find pages with...</h3>
+                <div class="fields">
+                    <label for="atwords">all these words:</label>
+                </div>
+                <div class="inputs">
+                    <input type="text" name="as_q" id="atwords">
+                </div>
+                <br>
+                <div class="fields">    
+                    <label for="lname">this exact word or phrase:</label>
+                </div>
+                <div class="inputs">
+                    <input type="text" id="lname" name="as_epq"><br>
+                </div>
+                <br>
+                <div class="fields">
+                    <label for="fname">any of these words:</label>
+                </div>
+                <div class="inputs">
+                    <input type="text" id="anwords" name="as_oq" ><br>
+                </div>
+                <br>
+                <div class="fields">
+                    <label for="fname">none of these words:</label>
+                </div>
+                <div class="inputs">
+                    <input type="text" id="ntwords" name="as_eq"><br>
+                </div>
+                <br>
+                    <input id="asearch" type="submit" value="Advance Search">
+              </form> 
+        </div>
+    </body>
+</html>
