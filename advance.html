@@ -11,42 +11,48 @@
             <li><a class="nav-link" href="index.html" >Google</a></li>
         </ul>
         </div>
-        <div id="heada">
-            <h2> Advance Search </h2>
+        <div id="headbar">
+            <h3 id="heada"> Advanced Search </h3>
         </div>
-        <div>
+        <div id="line"></div>
+        <div id="square">
             <form action="https://google.com/search">
-                <h3> Find pages with...</h3>
+               <div id="pages">
+                Find pages with...
+                </div>
                 <div class="fields">
                     <label for="atwords">all these words:</label>
                 </div>
-                <div class="inputs">
+                <div class="input">
                     <input class="inputs" type="text" name="as_q" id="atwords">
                 </div>
                 <br>
                 <div class="fields">    
                     <label for="lname">this exact word or phrase:</label>
                 </div>
-                <div class="inputs">
+                <div class="input">
                     <input class="inputs" type="text" id="lname" name="as_epq"><br>
                 </div>
                 <br>
                 <div class="fields">
                     <label for="fname">any of these words:</label>
                 </div>
-                <div class="inputs">
+                <div class="input">
                     <input class="inputs" type="text" id="anwords" name="as_oq" ><br>
                 </div>
                 <br>
                 <div class="fields">
                     <label for="fname">none of these words:</label>
                 </div>
-                <div class="inputs">
+                <div class="input">
                     <input class="inputs" type="text" id="ntwords" name="as_eq"><br>
                 </div>
                 <br>
-                <div>
-                    <input id="asearch" type="submit" value="Advance Search">
+                <div class="fields">
+                    <label for="fname"></label>
+                </div>
+                <div class="input">
+                    <input id="asearch" type="submit" value="Advanced Search">
                 </div>
                 </form> 
         </div>
